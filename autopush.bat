@@ -14,7 +14,7 @@ echo "Time:" %now%
 git commit -m "%now%"
  
 echo "4. Push the changes to the remote git server"
-git push
+git push origin
  
 echo "Batch execution complete!"
 pause
