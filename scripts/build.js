@@ -34,6 +34,7 @@ function buildEntry(config) {
     })
 }
 
+
 function logError(e) {
   console.log(e);
 }
