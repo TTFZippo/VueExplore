@@ -32,7 +32,9 @@ function buildEntry(config) {
     .then(({output: [{code}]})=> {
       return write(file, code)
     })
+    
 }
+
 
 
 function logError(e) {
